@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fouth"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yesiming.bolotest.FouthActivity"
+    android:collapseColumns=""
+    >
+
+    <TableRow>
+        <Button
+            android:text="Button 1-1"
+            />
+        <Button
+            android:text="Button 1-2"
+            />
+        <Button
+            android:text="Button 1-3"
+            />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:text="Button 2-1"
+            />
+    </TableRow>
+
+</TableLayout>
+
+
