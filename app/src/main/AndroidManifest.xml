@@ -25,7 +25,12 @@
             android:name=".ThirdActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.AppCompat.Dialog" />
-        <activity android:name=".FouthActivity"></activity>
+        <activity android:name=".FouthActivity" />
+
+        <service
+            android:name=".FirstService"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>
